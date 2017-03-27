@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+   android:background="#ffffff"
+
+    >
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="132dp"
+            app:srcCompat="@drawable/bigbang"
+            android:id="@+id/m" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="EMPTINESS FT. JUSTIN TIBLEKAR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_margin="5dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/clock"
+                    android:id="@+id/imageView3"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:text="18 HOURS AGO"
+                    android:layout_width="228dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView3"
+                    android:textSize="12sp"
+                    android:layout_margin="2dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:text="A world-weary political journalist picks up the story of a womans search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:layout_weight="1"
+                android:layout_margin="5dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
